@@ -667,5 +667,117 @@ from gramener_test import count_character as count_character
 # print(letters[new - 1])
 # from python_functions import word_check
 # word_check("glaceir")
-from python_functions import twin_prime
-twin_prime(800)
+# from python_functions import twin_prime
+# twin_prime(800)
+
+# for pat in range(5):
+#     print("*" * pat)
+# for pat in range(6):
+#     x = "*"
+#     x = x * pat
+#     print(f'{x: ^10}')
+
+# OOPS PRACTISE
+# class Student:
+#     def __init__(self,name):
+#         self.name = name
+# stu1 = Student("Pinky")
+# print(stu1.name)
+
+# PUBLIC (ACCESS MODIFIERS)
+# class Account:
+#     def __init__(self,acc_num,acc_pass):
+#         self.acc_num = acc_num
+#         self.acc_pass = acc_pass
+#
+# acc = Account("12345","ghjk")
+# print(acc.acc_num)
+# print(acc.acc_pass)
+
+# PRIVATE ACCESS MODIFIER
+# class Account:
+#     def __init__(self,acc_num,acc_pass):
+#         self.__acc_num = acc_num
+#         self.__acc_pass = acc_pass
+# acc = Account("789456","plkj")
+# print(acc.__acc_num)
+
+# class Car:
+#     color = "red"
+#     @staticmethod
+#     def start():
+#         print("car started")
+#     @staticmethod
+#     def stop():
+#         print("car stopped")
+# class Tatacar(Car):
+#     def __init__(self,name):
+#         self.name = name
+# car1 = Tatacar("Tiago")
+# car2 = Tatacar("Nexon")
+# print(car2.stop())
+# print(car1.start())
+# print(car1.color)
+# class Punch(Tatacar):
+#     def __init__(self,type):
+#
+#         self.type = type
+# car3 = Punch("Petrol")
+# car3.start()
+# MULTIPLE INHERITANCE
+# class A:
+#     var = "Welcome to class A"
+# class B():
+#     var = "Welcome to class B"
+# class C(A,B):
+#     pass
+#     # var = "Welcome to class C"
+# c1 = C()
+# print(c1.var)
+# print(c1.var)
+# print(c1.var)
+
+# PRORERTY DECORATOR
+# class Student:
+#     def __init__(self,phy,chem,math):
+#         self.phy = phy
+#         self.chem = chem
+#         self.math = math
+#     @property
+#     def percentage(self):
+#         return str((self.phy+self.chem+self.math)/3)+ "%"
+# stu1 = Student(56,85,94)
+# print(stu1.percentage)
+# stu1.phy = 86
+# print(stu1.percentage)
+
+# POLYMORPHISM
+#  Complex:
+#     def __init__(self,real,img):
+#         class self.real = real
+#         self.img = img
+#
+#     def show_num(self):
+#         print(self.real, "i +",self.img,"j")
+#     def total(self,num1):
+#         new_real = self.real + num1.real
+#         new_img = self.img + num1.img
+#         return Complex(new_real,new_img)
+#
+# num1 = Complex(2,5)
+# num1.show_num()
+# num2 = Complex(7,9)
+# num2.show_num()
+# num3 = num1.total(num2)
+# num3.show_num()
+
+# LAMBDA FUNCTION
+# lambda arguments: expression
+# num = lambda a: a+10
+# print (num(7))
+#
+# num_1 = lambda e,f : e*f
+# print(num_1(8,9))
+#
+# from python_functions import my_new_fun
+from python_functions import new_exp

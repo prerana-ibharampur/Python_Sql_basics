@@ -174,18 +174,25 @@ def find_fact(num):
 #     print("the total vowels in word is ",vowels)
 #     print("the total consonants in word is ",consonants)
 
-def check_prime(max_num):
-    for i in range(2, max_num):
-        if max_num % i == 0:
-            return False
-    return True
+# def check_prime(max_num):
+#     for i in range(2, max_num):
+#         if max_num % i == 0:
+#             return False
+#     return True
+#
+#
+# def twin_prime(max_num):
+#     for num_1 in range(2, max_num):
+#         num_2 = num_1 + 2
+#         if (check_prime(num_1) and check_prime(num_2)):
+#             print("{0} and {1}".format(num_1,num_2))
 
+def my_new_fun(b):
+    return lambda a: a*b
+rel = my_new_fun(2)
+print(rel(3))
 
-def twin_prime(max_num):
-    for num_1 in range(2, max_num):
-        num_2 = num_1 + 2
-        if (check_prime(num_1) and check_prime(num_2)):
-            print("{0} and {1}".format(num_1,num_2))
-
-
-
+def new_exp(e):
+    return lambda a: a**e
+exp = new_exp(3)
+print(exp(6))
