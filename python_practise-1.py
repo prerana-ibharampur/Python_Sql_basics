@@ -780,4 +780,17 @@ from gramener_test import count_character as count_character
 # print(num_1(8,9))
 #
 # from python_functions import my_new_fun
-from python_functions import new_exp
+# from python_functions import new_exp
+num_1 = input("enter a number ")
+num_2 = input("enter a number ")
+# try:
+#     divide = int(num_1) / int(num_2)
+#     print(divide)
+# except ZeroDivisionError as e:
+#     print("it was an error")
+# except:
+#     print("it was an error")
+# else:
+#     print("no errors")
+# finally:
+#     print("the program ends")

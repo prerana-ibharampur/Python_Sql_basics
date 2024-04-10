@@ -187,12 +187,29 @@ def find_fact(num):
 #         if (check_prime(num_1) and check_prime(num_2)):
 #             print("{0} and {1}".format(num_1,num_2))
 
-def my_new_fun(b):
-    return lambda a: a*b
-rel = my_new_fun(2)
-print(rel(3))
+# def my_new_fun(b):
+#     return lambda a: a*b
+# rel = my_new_fun(2)
+# print(rel(3))
+#
+# def new_exp(e):
+#     return lambda a: a**e
+# exp = new_exp(3)
+# print(exp(6))
 
-def new_exp(e):
-    return lambda a: a**e
-exp = new_exp(3)
-print(exp(6))
+# TRY CATCH CONCEPT
+# try:
+#     print(x)
+# except:
+#     print("it was an error")
+num_1 = input("enter a number" )
+num_2 = input("enter a number" )
+try:
+    divide = int(num_1) / int(num_2)
+    print(divide)
+except:
+    print("it was an error")
+else:
+    print("no errors")
+finally:
+    print("the program ends")
