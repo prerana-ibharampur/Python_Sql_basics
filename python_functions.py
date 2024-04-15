@@ -1,11 +1,11 @@
-def string_loop(string_1):
-    # string_1 = "venugopal"
-    start_index = 0
-    end_index = len(string_1)
-    while start_index < end_index:
-        print(string_1[start_index],end=" ")
-        start_index=start_index+2
-    # for i in range(start_index,len(string_1)-1,2):
+# def string_loop(string_1):
+#     # string_1 = "venugopal"
+#     start_index = 0
+#     end_index = len(string_1)
+#     while start_index < end_index:
+#         print(string_1[start_index],end=" ")
+#         start_index=start_index+2
+#     # for i in range(start_index,len(string_1)-1,2):
     #     print(string_1[i],end=" ")
 #
 # def str_loop():
@@ -46,32 +46,32 @@ def string_loop(string_1):
 # def add(a,b):
 #     print(a-b)
 
-def percentage(*args):
-    total = 0
-    for i in args:
-        total = total + i
-    avg = total / len(args)
-    print("average is =", avg)
-
-def marks(*subjects):
-    total = 0
-    for i in subjects:
-        total = total + i
-    average_marks = total/len(subjects)
-    print("the % scored is = ", average_marks)
-
-def for_factorial(end_index):
-    factorial = 1
-    for start_index in range(1, end_index+1):
-        factorial = factorial * start_index
-    print(" the fact is ", factorial)
-
-def while_factorial(num):
-    factorial = 1
-    start_index = 1
-    while start_index <= num:
-        factorial = factorial * start_index
-        start_index = start_index + 1
+# def percentage(*args):
+#     total = 0
+#     for i in args:
+#         total = total + i
+#     avg = total / len(args)
+#     print("average is =", avg)
+#
+# def marks(*subjects):
+#     total = 0
+#     for i in subjects:
+#         total = total + i
+#     average_marks = total/len(subjects)
+#     print("the % scored is = ", average_marks)
+#
+# def for_factorial(end_index):
+#     factorial = 1
+#     for start_index in range(1, end_index+1):
+#         factorial = factorial * start_index
+#     print(" the fact is ", factorial)
+#
+# def while_factorial(num):
+#     factorial = 1
+#     start_index = 1
+#     while start_index <= num:
+#         factorial = factorial * start_index
+#         start_index = start_index + 1
 
 def find_fact(num):
     factorial = 1
@@ -202,14 +202,18 @@ def find_fact(num):
 #     print(x)
 # except:
 #     print("it was an error")
-num_1 = input("enter a number" )
-num_2 = input("enter a number" )
-try:
-    divide = int(num_1) / int(num_2)
-    print(divide)
-except:
-    print("it was an error")
-else:
-    print("no errors")
-finally:
-    print("the program ends")
+# num_1 = input("enter a number" )
+# num_2 = input("enter a number" )
+# try:
+#     divide = int(num_1) / int(num_2)
+#     print(divide)
+# except:
+#     print("it was an error")
+# else:
+#     print("no errors")
+# finally:
+#     print("the program ends")
+
+def split_join
+
+

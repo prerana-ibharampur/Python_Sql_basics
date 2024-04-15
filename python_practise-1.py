@@ -781,8 +781,8 @@ from gramener_test import count_character as count_character
 #
 # from python_functions import my_new_fun
 # from python_functions import new_exp
-num_1 = input("enter a number ")
-num_2 = input("enter a number ")
+# num_1 = input("enter a number ")
+# num_2 = input("enter a number ")
 # try:
 #     divide = int(num_1) / int(num_2)
 #     print(divide)
@@ -794,3 +794,17 @@ num_2 = input("enter a number ")
 #     print("no errors")
 # finally:
 #     print("the program ends")
+
+# lis = (1,2,3,4,1,1,2,3)
+# set_lis = list(set(lis))
+# for ele in set_lis:
+#     [ele] = lis.count(ele)
+#
+# from python_functions import check_palindrome
+# # word = ""
+# check_palindrome("grammer")
+# check_str = input("enter a word ")
+# if check_str.isalpha() and check_str.islower():
+#     print("TRUE")
+# else:
+#     print("FALSE")
