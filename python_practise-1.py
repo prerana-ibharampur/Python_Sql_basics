@@ -808,3 +808,44 @@ from gramener_test import count_character as count_character
 #     print("TRUE")
 # else:
 #     print("FALSE")
+
+# str = "prerana"
+# new_str = str.replace("p","venu")
+# print(new_str)
+
+# from python_functions import split_join
+# # split_join("wood-doll")
+# split_join("this is a code")
+
+# num_list = [1,1,2,3,4,5,5,5]
+# output = {}
+# for i in num_list:
+#     if i in output:
+#         output[i] += 1
+#     else:
+#         output[i] = 1
+# print(output)
+
+# alpha_list = ["a","a","a","b","c","c","c","d","d"]
+# output = {}
+# for i in alpha_list:
+#     if i in output:
+#         output[i] += 1
+#     else:
+#         output[i] = 1
+# print(output)
+
+# method-2
+# set_l = {1,2,3,4,5}
+# l = [1,1,2,3,4,5,5,5]
+# set_l = list(set_l)
+# output = {}
+# for i in set_l:
+#     new = l.count(i)
+#     output[i] = new
+# print(new)
+
+# from python_functions import print_full_name
+# print_full_name("Ross","Taylor")
+from python_functions import mutate_string
+mutate_string("abracadbra",5,"k")

@@ -214,6 +214,30 @@ def find_fact(num):
 # finally:
 #     print("the program ends")
 
-def split_join
+# def split_join():
+# str = "prerana"
+# new_str = str.replace("p","venu")
+# print(new_str)
 
+# def split_join(str):
+#     new_str = str.replace("wood","tree")
+#     print(new_str)
 
+# def split_join(sentence):
+#     # l_1 = line.split(" ")
+#     # line = l_1.join("-")
+#     sentence = sentence.replace(" ","-")
+#     return sentence
+
+# def print_full_name(first,last):
+#     print(f"Hello {first} {last}!You just delved into python.")
+
+def mutate_string(string,position,character):
+    # string = "abracadabra"
+    # l = list(string)
+    # l[5] = "k"
+    # string = "".join(l)
+    # print(string)
+
+    # string = string[:5]+"k"+ string[6:]
+    # print(string)
